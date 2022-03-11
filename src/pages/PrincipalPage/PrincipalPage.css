@@ -1,0 +1,136 @@
+.principal-page {
+    display: grid;
+    gap: 4.6rem;
+    grid-template-columns: 1fr auto 1fr;
+} 
+
+.title {
+    font-size: 3rem;
+    color: #BFBFBF;
+    font-weight: bold;
+    padding: 0;
+    width: 328px;
+}
+
+.title span {
+    color: #297AF2;
+}
+
+.description {
+    font-size: .8rem;
+    color: #666666;
+    width: 100;
+    width: 20rem;
+}
+
+.input-content label {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-content label span {
+    width: 91px;
+    font-size: .8rem;
+    color: #757575;
+    padding: 1rem 0px;
+}
+
+.input-content label .text-area {
+    display: block;
+    font-size: 1.14rem;
+    color: #757575;
+    background-color: #fff;
+    box-shadow: 0px 0px 14px -3px rgba(0, 0, 0, 0.25);
+    border-radius: .5rem;
+    font-size: .8rem;
+    color: #A8A8A8;
+    border: none;
+    outline: none;
+    width: 20rem !important;
+    height: 11.5rem;
+    padding: 1rem;
+    resize: inherit;
+    box-sizing: border-box;
+}
+
+.buttons-content .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.3rem;
+    margin-top: 1.8rem;
+}
+
+.buttons-content .buttons .btn {
+    width: 7.5rem;
+    padding: 0.8rem 0;
+    border-radius: 0.6rem;
+    border: none;
+    background: #373A3E;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.buttons-content .buttons .btn.skye {
+    background: #178FFD;
+}
+.options .list{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.options .list .element {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    box-sizing: border-box;
+    border-radius: .5rem;
+    width: 8rem;
+    background-color: #EEEEEE;
+    font-size: .8rem;
+    color: #464646;
+    padding: 14px 10px;
+    text-overflow: ellipsis;
+}
+.options .list .element .name{
+    text-overflow: ellipsis;
+    width: 100%;
+    overflow: hidden;
+}
+
+.options .list .element::before {
+    content: '';
+    display: block;
+    width: 7px;
+    height: 7px;
+    flex-shrink: 0;
+    border-radius: 50%;
+}
+.options .list.A{
+    align-items: end;
+}
+.options .list.B{
+    align-items: start;
+}
+.options .list.A .element::before {
+    background-color: #EC3B3B;
+}
+.options .list.B .element::before {
+    background-color: #ECC53B;
+}
+.options .list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1rem;
+}
+.options{
+    padding-top: 7rem;
+}
+.content-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
